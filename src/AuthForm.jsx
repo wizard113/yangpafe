@@ -32,7 +32,7 @@ export default function AuthForm() {
           // const token = localStorage.getItem('token');//token 읽어오기
           setMessage('로그인 성공! 토큰이 저장되었습니다.');
         } else {
-          setMessage('회원가입 성공! v1');
+          setMessage('회원가입 성공! v2');
         }
         console.log('성공:', data);
       } else {
